@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessLogicLayer.cs" />
     <Compile Include="Costumer.cs" />
     <Compile Include="DataAccessLayer.cs" />
     <Compile Include="Program.cs" />
