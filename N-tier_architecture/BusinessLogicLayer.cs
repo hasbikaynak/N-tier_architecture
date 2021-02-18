@@ -8,21 +8,21 @@ namespace N_tier_architecture
 {
    internal class BusinessLogicLayer
     {
-        DataAccessLayer dal;
+        DataAccessLayer DAL;
         public BusinessLogicLayer()
         {
-            new DataAccessLayer();
+            DAL = new DataAccessLayer();
         }
 
-        internal int SaveData(int CostumerID, string Name, string Surname)
+        internal int SaveData(int ID, string Name, string Surname)
         {
             if (!string.IsNullOrEmpty(Name)&&!string.IsNullOrEmpty(Surname))
             {
                 Costumer C1 = new Costumer();
-                C1.ID = CostumerID;
+                C1.ID = ID;
                 C1.Name = Name;
                 C1.Surname = Surname;
-               return  dal.SaveData(C1); // we cleaned up our codes and data now we can carry it up to the next tier 
+                return DAL.SaveData(C1); // we cleaned up our codes and data now we can carry it up to the next tier 
             }
             else
             {

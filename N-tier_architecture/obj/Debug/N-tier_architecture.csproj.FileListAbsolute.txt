@@ -1,0 +1,7 @@
+C:\Users\CEM\source\repos\N-tier_architecture\N-tier_architecture\bin\Debug\N-tier_architecture.exe.config
+C:\Users\CEM\source\repos\N-tier_architecture\N-tier_architecture\bin\Debug\N-tier_architecture.exe
+C:\Users\CEM\source\repos\N-tier_architecture\N-tier_architecture\bin\Debug\N-tier_architecture.pdb
+C:\Users\CEM\source\repos\N-tier_architecture\N-tier_architecture\obj\Debug\N-tier_architecture.csprojAssemblyReference.cache
+C:\Users\CEM\source\repos\N-tier_architecture\N-tier_architecture\obj\Debug\N-tier_architecture.csproj.CoreCompileInputs.cache
+C:\Users\CEM\source\repos\N-tier_architecture\N-tier_architecture\obj\Debug\N-tier_architecture.exe
+C:\Users\CEM\source\repos\N-tier_architecture\N-tier_architecture\obj\Debug\N-tier_architecture.pdb

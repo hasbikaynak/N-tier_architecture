@@ -17,6 +17,7 @@ namespace N_tier_architecture
             connection = new SqlConnection();
             connection.ConnectionString = "Data Source=.; Initial Catalog = Adonet; User ID=sa; Password =1";
         }
+       
         internal void ConnectionOptions()
         {
             if (connection.State == System.Data.ConnectionState.Closed)
@@ -28,12 +29,12 @@ namespace N_tier_architecture
                 connection.Close();
         }
 
-            internal int SaveData(Costumer C)
-            {
+        internal int SaveData(Costumer C)
+        {
             //It is going to be saving to database proccess here
             return 1;
-            }
-        
+        }
+
     }
 
     
